@@ -29,7 +29,13 @@
 	margin-top: 30px;
 }
 
-.App-list {}
+.App-list {
+	width: 1000px;
+}
+
+.App-buttons_block {
+	display: flex;
+}
 
 .App-todo {
 	display: flex;
@@ -52,6 +58,23 @@
 }
 
 .svg-icon circle {
+	stroke: darkgrey;
+	stroke-width: 1;
+}
+
+.pen-icon {
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.pen-icon path,
+.pen-icon polygon,
+.pen-icon rect {
+	fill: darkgrey;
+}
+
+.pen-icon circle {
 	stroke: darkgrey;
 	stroke-width: 1;
 }

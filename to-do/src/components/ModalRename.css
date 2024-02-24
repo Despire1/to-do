@@ -1,0 +1,7 @@
+.Modal-wrapper {
+	background: white;
+	width: 200px;
+	height: 200px;
+	z-index: 100;
+	position: relative;
+}
