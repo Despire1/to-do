@@ -29,9 +29,7 @@
 	margin-top: 30px;
 }
 
-.App-list {
-
-}
+.App-list {}
 
 .App-todo {
 	display: flex;
@@ -39,4 +37,21 @@
 	padding-top: 20px;
 	justify-content: space-between;
 	border-top: 1px solid darkgrey;
+}
+
+.svg-icon {
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+	fill: darkgrey;
+}
+
+.svg-icon circle {
+	stroke: darkgrey;
+	stroke-width: 1;
 }
